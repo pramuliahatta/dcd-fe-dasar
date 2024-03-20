@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: center;
+    background-color: #F7F6E1;
+    padding: 1rem;
+}
+
+nav {
+    top: 0;
+    position: sticky; 
+    position: -webkit-sticky;
+
+    overflow: hidden;
+
+    background-color: #E8E7CF;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding: 0 1rem ;
+    list-style-type: none;
+}
+
+nav li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav li a:hover{
+    font-weight: bold;
+    color: #8F8F8F;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+section {
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+footer {
+    padding: 1rem;
+    background-color: #F7F6E1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-add input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form-group {
+    text-align: left;
+    color: #8F8F8F;
+}
+
+.form-group input {
+    margin: 1rem 0;
+}
+
+.form-group-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group-2 input[type=checkbox] {
+    margin-right: 90%;
+}
+
+.btn {
+    padding: 0.7rem;
+    background-color: #F7F6E1;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #E8E7CF;
+}
+
+.btn-add {
+    width: 100%;
+}
+
+.book-search {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search-box input {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.book-entries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.book-info h3,p {
+    margin: 0;
+}
+
+.btn-group {
+    flex: 2;
+}
+
+.btn-readmark{
+    padding: 0.5rem;
+}
+
+.btn-delete {
+    padding: 0.5rem;
+    background-color: #FC6060;
+}
+
+.btn-delete:hover{
+    background-color: #E04141;
+}
+
+@media screen and (max-width: 900px) {
+    .form-group:nth-last-child(2) input[type=checkbox] {
+        margin-right: 75%;
+    }
+}
