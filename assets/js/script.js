@@ -22,7 +22,7 @@ function addBook() {
     const id = generateId();
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
-    const year = document.getElementById('year').value;
+    const year = Number(document.getElementById('year').value);
     
     const checkbox = document.getElementById('is-completed');
     const isCompleted = checkbox.checked ? true : false;
