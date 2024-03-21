@@ -19,9 +19,9 @@
     </nav>
 
     <main>
-        <section class="form-add">
+        <section class="book-add">
             <h2>Add New Books</h2>
-            <form action="" id="add">
+            <form action="" id="form-add">
                 <div class="form-group">
                     <label for="title">Title</label>
                     <input type="text" id="title" required>
@@ -31,8 +31,8 @@
                     <input type="text" id="author" required>
                 </div>
                 <div class="form-group">
-                    <label for="publish-year">Publish Year</label>
-                    <input type="number" id="publish-year" required>
+                    <label for="year">Publish Year</label>
+                    <input type="number" id="year" required>
                 </div>
                 <div class="form-group-2">
                     <label for="is-completed">Read</label>
@@ -47,10 +47,10 @@
             <h2>Book List</h2>
             <div class="book-search">
                 <h3>Search Book</h3>
-                <form action="">
+                <form action="" id="form-search">
                     <div class="form-group search-box">
                         <label for="searh-book">Title</label>
-                        <input type="text" id="searh-book">
+                        <input type="text" id="book-title">
                         <button class="btn" type="submit">Search</button>
                     </div>
                     
@@ -58,17 +58,7 @@
             </div>
             <h3>Unread</h3>
             <div id="unread">
-                <div class="book-entries" id="bookId">
-                    <div class="book-info">
-                        <h3>Henry Purta</h3>
-                        <p>Joke Key Rofling</p>
-                        <p>1901-25-08</p>
-                    </div>
-                    <div class="btn-group">
-                        <button class="btn btn-readmark">Read</button>
-                        <button class="btn btn-delete">Delete</button>
-                    </div>
-                </div>
+
             </div>
             <h3>Read</h3>
             <div id="read">

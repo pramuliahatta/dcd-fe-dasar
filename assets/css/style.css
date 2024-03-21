@@ -74,7 +74,7 @@ footer {
     font-weight: bold;
 }
 
-.form-add input {
+.book-add input {
     width: 100%;
     padding: 0.5rem;
     font-size: 1.1rem;
@@ -93,6 +93,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8F8F8F;
 }
 
 .form-group-2 input[type=checkbox] {
@@ -140,6 +141,7 @@ footer {
     border: 1px solid;
     border-radius: 8px;
     padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 .book-info {
@@ -170,7 +172,7 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    .form-group:nth-last-child(2) input[type=checkbox] {
+    .form-group-2 input[type=checkbox] {
         margin-right: 75%;
     }
 }
